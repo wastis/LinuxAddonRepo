@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="service.mpremote.interface" name="Media Player Remote Interface" version="1.0.5" provider-name="wastis">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+	</requires>
+	<extension point="xbmc.service" library="resources/lib/service.py"/>
+	<extension point="xbmc.addon.metadata">
+		<platform>linux</platform>
+		<summary lang="en">Enables the control of Kodi with standard desktop apps and multimedia keys.</summary>
+		<summary lang="de_DE">Ermöglicht die Steuerung von Kodi durch Standardanwendungen und Multimediatasten.</summary>
+		<description lang="en">This MPRIS implementation forwards the desktop- and keyboard multimedia control events to Kodi and provides meta data back to the desktop for display in system tray controls.</description>
+		<description lang="de_DE">Diese MPRIS Implementierung leited die Multimedia- Steuerungsbefehle von der Tastatur und der Arbeitsumgebung and Kodi weiter und liefert Medieninformation zur Anzeige im Infobereich zurück.</description>
+		<license>GPL-3.0-or-later</license>
+		<forum>https://forum.kodi.tv/showthread.php?tid=367961</forum>
+		<source>https://github.com/wastis/MediaPlayerRemoteInterface</source>
+		<disclaimer lang="en_GB">https://github.com/wastis/MediaPlayerRemoteInterface</disclaimer>
+		<disclaimer lang="de_DE">https://github.com/wastis/MediaPlayerRemoteInterface</disclaimer>
+		<news>
+v1.0.5
+- change logo
+- show Kodi logo in tray player, if media art is not available
+- some system improvements
+
+v1.0.4
+- send key commands instead of directly calling functions:
+  this way keypresses can be overwritten by keyboard.xml
+- removed previous / next switch between episodes in tvshows
+  this shall be handled seperately, if needed
+- icon change
+
+v1.0.3
+- Use cached images, this will also show thumbnails if source is on samba drive
+- previous / next to switch between episodes in tvshows
+- improved stability on previous / next
+- enable / disable screen buttons according to their function availability
+- improvements on meta data mapping
+
+v1.0.2
+- Next title position jump fixed
+
+v1.0.1 
+- Fix seek position on tray icon
+- Publish more media inormation
+- Better signal handling
+
+v1.0.0 
+- Initial Version</news>
+		<assets>
+			<icon>resources/media/icon256.png</icon>
+			<fanart>resources/media/fanart.jpg</fanart>
+			<screenshot>resources/media/kodi-cinnamon-applet-player.jpg</screenshot>
+		</assets>
+	</extension>
+</addon>
