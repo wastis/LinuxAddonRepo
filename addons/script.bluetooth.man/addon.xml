@@ -10,11 +10,10 @@
 		<platform>linux</platform>
 		<summary lang="en">Bluetooth manager, allows to pair and connect devices.</summary>
 		<summary lang="de_DE">Bluetooth Manager, erlaubt das Koppeln und Verbinden von Geräten.</summary>
-		<description lang="en">This is a simple bluetooth manager based on dbus interface.</description>
-		<description lang="de_DE">Dies ist ein einfacher Bluetooth Manager basierend auf dem DBus Interface.</description>
+		<description lang="en">A bluetooth manager to pair and connect devices. This implementation is based on dbus interface.</description>
+		<description lang="de_DE">Ein Bluetooth Manager,um Geräte zu koppeln und verbinden. Diese Implementierung basiert auf dem DBus Interface.</description>
 		<license>GPL-3.0-or-later</license>
-		<forum>https://forum.kodi.tv/showthread.php?tid=367961</forum>
-		<source>https://github.com/wastis/MediaPlayerRemoteInterface</source>
+		<source>https://github.com/wastis/BluetoothManager</source>
 		<disclaimer lang="en_GB">https://github.com/wastis/BluetoothManager</disclaimer>
 		<disclaimer lang="de_DE">https://github.com/wastis/BluetoothManager</disclaimer>
 		<news>
