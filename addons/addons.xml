@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="script.pulseequalizer.gui" name="PulseEqualizer GUI" version="2.1.0" provider-name="wastis">
+<addon id="script.pulseequalizer.gui" name="PulseEqualizer GUI" version="2.1.1" provider-name="wastis">
 
-	<extension point="xbmc.python.script" library="addon.py">
+    <extension point="xbmc.python.script" library="addon.py">
 		<provides>executable</provides>
 	</extension>
-	<extension point="xbmc.service" library="service.py" />
+    <extension point="xbmc.service" library="service.py" />
 	<extension point="xbmc.addon.metadata">
 		<platform>linux</platform>
 		<summary lang="en">Frontend for the Pulseaudio Equalizer.</summary>
@@ -25,6 +25,8 @@ https://github.com/wastis/PulseEqualizerGui
 		<website>Kodi.tv</website>
 		<email></email>
 		<news>
+2.1.1  ()
+- fix some problems with Kodi 19.3 on raspberry (audio device conflicts, bt-device on/off issues)
 2.1.0 (2021-12-06)
 - added Room Correction functionality
 - more flexibility in filter frequency selection
