@@ -127,9 +127,11 @@ v2.1.0 (2021-12-06)
 		<disclaimer lang="en_GB">https://github.com/wastis/MediaPlayerRemoteInterface</disclaimer>
 		<disclaimer lang="de_DE">https://github.com/wastis/MediaPlayerRemoteInterface</disclaimer>
 		<news>
+
 v1.0.6
 - new icon
 - included into linux addon repository
+
 v1.0.5
 - change logo
 - show Kodi logo in tray player, if media art is not available
@@ -160,7 +162,7 @@ v1.0.1
 v1.0.0 
 - Initial Version</news>
 		<assets>
-			<icon>resources/media/icon256.png</icon>
+			<icon>resources/media/icon1.png</icon>
 			<fanart>resources/media/fanart.jpg</fanart>
 			<screenshot>resources/media/kodi-cinnamon-applet-player.jpg</screenshot>
 		</assets>
