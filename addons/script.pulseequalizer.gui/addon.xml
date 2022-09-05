@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.pulseequalizer.gui" name="PulseEqualizer GUI" version="2.1.0" provider-name="wastis">
+
+    <extension point="xbmc.python.script" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+    <extension point="xbmc.service" library="service.py" />
+	<extension point="xbmc.addon.metadata">
+		<platform>linux</platform>
+		<summary lang="en">Frontend for the Pulseaudio Equalizer.</summary>
+		<summary lang="de_DE">Konfigurator für den Pulseaudio Klangfilter.</summary>
+		<description lang="en">Enables sound adjustments with sliders. Further there are a range of additional configuration options, such as the creation, selection and removal of equalizer profiles.
+
+https://github.com/wastis/PulseEqualizerGui
+</description>
+		<description lang="de_DE">Ermöglicht das Einstellen der Klangfilters mittels Schiebeschalter. Ferner gibt es eine Reihe von zusätzlichen Einstellmöglichkeiten, wie das Erstellen, Auswählen und Löschen von Klangprofilen.
+
+https://github.com/wastis/PulseEqualizerGui
+</description>
+		<license>GNU General Public License, v3</license>
+		<language></language>
+		<forum>https://forum.kodi.tv/showthread.php?tid=360514</forum>
+		<source>https://github.com/wastis/PulseEqualizerGui</source>
+		<website>Kodi.tv</website>
+		<email></email>
+		<news>
+2.1.0 (2021-12-06)
+- added Room Correction functionality
+- more flexibility in filter frequency selection
+- some user interface changes
+2.0.0 (2021-11-13)
+- added latency-offset slider, save latency based on equalizer in playback chain
+- possibility to switch equalizer on/off
+- change output selection method
+- added system volume control
+- automatic module loading, simplified pulseaudio configuration
+- save settings per selected device (volume, profile and latency)
+- automatic bluetooth device switching
+- skip filter if no playback (no latency on GUI sounds)
+- architectual change
+	</news>
+		<assets>
+			<icon>icon.png</icon>
+			<screenshot>scr0.png</screenshot>
+			<screenshot>scr1.png</screenshot>
+		</assets>
+		<news></news>
+	</extension>
+</addon>
