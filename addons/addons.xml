@@ -1,6 +1,36 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="script.pulseequalizer.gui" name="Pulse Equalizer" version="2.1.6" provider-name="wastis">
+<addon id="script.bluetooth.man" name="Bluetooth Manager" version="1.0.1" provider-name="wastis">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="resources/lib/addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>linux</platform>
+		<summary lang="en">Bluetooth manager, allows to pair and connect devices.</summary>
+		<summary lang="de_DE">Bluetooth Manager, erlaubt das Koppeln und Verbinden von Geräten.</summary>
+		<description lang="en">A bluetooth manager to pair and connect devices. This implementation is based on dbus interface.</description>
+		<description lang="de_DE">Ein Bluetooth Manager,um Geräte zu koppeln und verbinden. Diese Implementierung basiert auf dem DBus Interface.</description>
+		<license>GPL-3.0-or-later</license>
+		<source>https://github.com/wastis/BluetoothManager</source>
+		<disclaimer lang="en_GB">https://github.com/wastis/BluetoothManager</disclaimer>
+		<disclaimer lang="de_DE">https://github.com/wastis/BluetoothManager</disclaimer>
+		<news>
+v1.0.1
+- included into linux addon repository
+v1.0.0 
+- Initial Version</news>
+		<assets>
+			<icon>resources/media/icon.png</icon>
+			<fanart>resources/media/fanart.jpg</fanart>
+			<screenshot>resources/media/bt-manager-screen.jpg</screenshot>
+		</assets>
+	</extension>
+</addon>
+
+<addon id="script.pulseequalizer.gui" name="Pulse Equalizer" version="2.1.7" provider-name="wastis">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
@@ -27,6 +57,9 @@ https://github.com/wastis/PulseEqualizerGui
 		<disclaimer lang="de_DE">Dokumentation: https://github.com/wastis/PulseEqualizerGui/wiki</disclaimer>
 		<news>
 			
+v2.1.7  (2022-09-05)
+- new icon (minor change)
+- included into linux addon repository
 v2.1.6  (2022-08-28)
 - own filter setting for removable devices plugged in
 - autoswitch to and from plugged and unplugged usb devices
@@ -77,35 +110,7 @@ v2.1.0 (2021-12-06)
 	</extension>
 </addon>
 
-<addon id="script.bluetooth.man" name="Bluetooth Manager" version="1.0.0" provider-name="wastis">
-	<requires>
-		<import addon="xbmc.python" version="3.0.0"/>
-	</requires>
-	<extension point="xbmc.python.script" library="resources/lib/addon.py">
-		<provides>executable</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<platform>linux</platform>
-		<summary lang="en">Bluetooth manager, allows to pair and connect devices.</summary>
-		<summary lang="de_DE">Bluetooth Manager, erlaubt das Koppeln und Verbinden von Geräten.</summary>
-		<description lang="en">A bluetooth manager to pair and connect devices. This implementation is based on dbus interface.</description>
-		<description lang="de_DE">Ein Bluetooth Manager,um Geräte zu koppeln und verbinden. Diese Implementierung basiert auf dem DBus Interface.</description>
-		<license>GPL-3.0-or-later</license>
-		<source>https://github.com/wastis/BluetoothManager</source>
-		<disclaimer lang="en_GB">https://github.com/wastis/BluetoothManager</disclaimer>
-		<disclaimer lang="de_DE">https://github.com/wastis/BluetoothManager</disclaimer>
-		<news>
-v1.0.0 
-- Initial Version</news>
-		<assets>
-			<icon>resources/media/icon.png</icon>
-			<fanart>resources/media/fanart.jpg</fanart>
-			<screenshot>resources/media/bt-manager-screen.jpg</screenshot>
-		</assets>
-	</extension>
-</addon>
-
-<addon id="service.mpremote.interface" name="Media Player Remote Interface" version="1.0.5" provider-name="wastis">
+<addon id="service.mpremote.interface" name="Media Player Remote Interface" version="1.0.6" provider-name="wastis">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
@@ -122,6 +127,9 @@ v1.0.0
 		<disclaimer lang="en_GB">https://github.com/wastis/MediaPlayerRemoteInterface</disclaimer>
 		<disclaimer lang="de_DE">https://github.com/wastis/MediaPlayerRemoteInterface</disclaimer>
 		<news>
+v1.0.6
+- new icon
+- included into linux addon repository
 v1.0.5
 - change logo
 - show Kodi logo in tray player, if media art is not available
