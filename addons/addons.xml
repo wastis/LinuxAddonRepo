@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="script.bluetooth.man" name="Bluetooth Manager" version="1.0.1" provider-name="wastis">
+<addon id="script.bluetooth.man" name="Bluetooth Manager" version="1.0.2" provider-name="wastis">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
@@ -18,6 +18,10 @@
 		<disclaimer lang="en_GB">https://github.com/wastis/BluetoothManager</disclaimer>
 		<disclaimer lang="de_DE">https://github.com/wastis/BluetoothManager</disclaimer>
 		<news>
+v1.0.2
+- added skin support for many skins
+- ensure that only on intace of the addon is running for stability
+- block user input while paring, connecting for stability
 v1.0.1
 - included into linux addon repository
 v1.0.0 
