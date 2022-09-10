@@ -2,9 +2,9 @@
 
 Contains the following addons
 
-|<img src="addons/script.pulseequalizer.gui/resources/media/icon1.png" alt="drawing" width="200"/> | <img src="addons/service.mpremote.interface/resources/media/icon1.png" alt="drawing" width="200"/>      | <img src="addons/script.bluetooth.man/resources/media/icon.png" alt="drawing" width="200"/>        |
-|:--------------:|:-----------:|:------------:|	
-|[Pulse Equalizer](https://github.com/wastis/PulseEqualizerGui)|[Media Player Remote Interface](https://github.com/wastis/MediaPlayerRemoteInterface)|[Bluetooth Manager](https://github.com/wastis/BluetoothManager)|
+|<img src="addons/script.pulseequalizer.gui/resources/media/icon1.png" alt="drawing" width="200"/> | <img src="addons/service.mpremote.interface/resources/media/icon1.png" alt="drawing" width="200"/>      | <img src="addons/script.bluetooth.man/resources/media/icon.png" alt="drawing" width="200"/>        | <img src="addons/script.shellscript.launcher/resources/media/icon.png" alt="drawing" width="200"/> |
+|:--------------:|:-----------:|:------------:|:------------:|	
+|[Pulse Equalizer](https://github.com/wastis/PulseEqualizerGui)|[Media Player Remote Interface](https://github.com/wastis/MediaPlayerRemoteInterface)|[Bluetooth Manager](https://github.com/wastis/BluetoothManager)|Shell Script Launcher|
 
 ## Installation
 
