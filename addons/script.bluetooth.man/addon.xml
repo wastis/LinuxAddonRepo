@@ -19,7 +19,7 @@
 		<news>
 v1.0.2
 - added skin support for many skins
-- ensure that only on intace of the addon is running for stability
+- ensure that only one instance of the addon is running for stability
 - block user input while paring, connecting for stability
 v1.0.1
 - included into linux addon repository

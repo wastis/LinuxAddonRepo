@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.shellscript.launcher" name="Shell Script Launcher" version="0.9.0" provider-name="wastis">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="resources/lib/addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>linux</platform>
+		<summary lang="en">Execute Shell Scripts</summary>
+		<summary lang="de_DE">Führt Shellscripte aus</summary>
+		<description lang="en">It displays a script selection menu. The menu is defined in a text file, that is ":" separated (see example.menu in addon folder).</description>
+		<description lang="de_DE">Zeigt ein Scriptauswahlmenü zum Ausführen von Scripten an. Das Menü ist in einer Textdatei definiert (siehe example.menu im Addonverzeichnis).</description>
+		<license>GPL-3.0-or-later</license>
+		<source></source>
+		<disclaimer lang="en_GB"></disclaimer>
+		<disclaimer lang="de_DE"></disclaimer>
+		<news>
+v0.9.0 
+- Initial Version</news>
+		<assets>
+			<icon>resources/media/icon.png</icon>
+			<fanart>resources/media/fanart.jpg</fanart>
+			<screenshot>resources/media/bt-manager-screen.jpg</screenshot>
+		</assets>
+	</extension>
+</addon>
