@@ -173,7 +173,7 @@ v1.0.0
 	</extension>
 </addon>
 
-<addon id="script.shellscript.launcher" name="Shell Script Launcher" version="0.9.0" provider-name="wastis">
+<addon id="script.shellscript.launcher" name="Shell Script Launcher" version="0.9.1" provider-name="wastis">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
@@ -191,6 +191,8 @@ v1.0.0
 		<disclaimer lang="en_GB"></disclaimer>
 		<disclaimer lang="de_DE"></disclaimer>
 		<news>
+v0.9.1
+- added skins 
 v0.9.0 
 - Initial Version</news>
 		<assets>
