@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.pulseequalizer.gui" name="Pulse Equalizer" version="2.1.7" provider-name="wastis">
+<addon id="script.pulseequalizer.gui" name="Pulse Equalizer" version="2.1.8" provider-name="wastis">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
@@ -26,9 +26,14 @@ https://github.com/wastis/PulseEqualizerGui
 		<disclaimer lang="de_DE">Dokumentation: https://github.com/wastis/PulseEqualizerGui/wiki</disclaimer>
 		<news>
 			
+v2.1.8  (22-09-17)
+- improved startup procedure
+- support of alsa-pulseservice as kodi input stream
+
 v2.1.7  (2022-09-05)
 - new icon (minor change)
 - included into linux addon repository
+
 v2.1.6  (2022-08-28)
 - own filter setting for removable devices plugged in
 - autoswitch to and from plugged and unplugged usb devices
