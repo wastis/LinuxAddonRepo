@@ -39,7 +39,7 @@ v1.0.0
 	</extension>
 </addon>
 
-<addon id="script.pulseequalizer.gui" name="Pulse Equalizer" version="2.1.8" provider-name="wastis">
+<addon id="script.pulseequalizer.gui" name="Pulse Equalizer" version="2.1.9" provider-name="wastis">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
@@ -66,6 +66,9 @@ https://github.com/wastis/PulseEqualizerGui
 		<disclaimer lang="de_DE">Dokumentation: https://github.com/wastis/PulseEqualizerGui/wiki</disclaimer>
 		<news>
 			
+v2.1.9	(29-09-17)
+- fix probem with loading of large filters
+
 v2.1.8  (22-09-17)
 - improved startup procedure
 - support of alsa-pulseservice as kodi input stream
