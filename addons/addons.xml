@@ -39,7 +39,7 @@ v1.0.0
 	</extension>
 </addon>
 
-<addon id="script.pulseequalizer.gui" name="Pulse Equalizer" version="2.1.9" provider-name="wastis">
+<addon id="script.pulseequalizer.gui" name="Pulse Equalizer" version="2.2.0" provider-name="wastis">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
@@ -65,7 +65,14 @@ https://github.com/wastis/PulseEqualizerGui
 		<disclaimer lang="en_GB">Documentation: https://github.com/wastis/PulseEqualizerGui/wiki</disclaimer>
 		<disclaimer lang="de_DE">Dokumentation: https://github.com/wastis/PulseEqualizerGui/wiki</disclaimer>
 		<news>
-v2.1.9  (29-09-30)
+v2.2.0  (22-10-4)
+- improve default sink handling. 
+      Set a default sink for kodi that is used on system startup or
+         when removable device is been removed
+      Set the system default sink, that is also used as default master when a 
+         static filter is created at boot time
+         
+v2.1.9  (22-09-30)
 - fix probem with loading of large filters
 
 v2.1.8  (22-09-17)
