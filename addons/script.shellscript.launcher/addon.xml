@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.shellscript.launcher" name="Shell Script Launcher" version="1.0.0" provider-name="wastis">
+<addon id="script.shellscript.launcher" name="Shell Script Launcher" version="1.0.1" provider-name="wastis">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
@@ -17,7 +17,8 @@
 		<disclaimer lang="en_GB"></disclaimer>
 		<disclaimer lang="de_DE"></disclaimer>
 		<news>
-
+v1.0.1 (2022/10/18)
+- support inividual keyboard keys per menu item.
 v1.0.0
 - removed blocking flag as non blocking it produced zombie processes
 - introduced flags notify, exitcode
