@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.linuxaddons" name="Linux Addon Repository" version="1.0.0" provider-name="wastis">
+<addon id="repository.linuxaddons" name="Linux Addon Repository" version="1.0.1" provider-name="wastis">
 	<extension point="xbmc.addon.repository" name="xStream Repository">
-		<info compressed="false">https://raw.github.com/wastis/LinuxAddonRepo/master/addons/addons.xml</info>
-		<checksum>https://raw.github.com/wastis/LinuxAddonRepo/master/addons/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.github.com/wastis/LinuxAddonRepo/master/addons/</datadir>
+		<dir>
+			<info compressed="false">https://raw.github.com/wastis/LinuxAddonRepo/master/addons/addons.xml</info>
+			<checksum>https://raw.github.com/wastis/LinuxAddonRepo/master/addons/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.github.com/wastis/LinuxAddonRepo/master/addons/</datadir>
+		</dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<license>GPL-3.0-or-later</license>

@@ -10,8 +10,8 @@ Contains the following addons
 
 Download "repository.linuxaddons-x.y.z.zip" from this repository and install it within Kodi via "Install from zip file" or extract it into the "~/.kodi/addons" folder. In the latter case, restart Kodi.
 
-	wget https://raw.github.com/wastis/LinuxAddonRepo/master/repository.linuxaddons-1.0.0.zip
-	unzip -d ~/.kodi/addons repository.linuxaddons-1.0.0.zip
+	wget https://raw.github.com/wastis/LinuxAddonRepo/master/repository.linuxaddons-1.0.1.zip
+	unzip -d ~/.kodi/addons repository.linuxaddons-1.0.1.zip
 
 Once installed, select "Install from repository" -> "Linux Addon Repository"
 
@@ -35,6 +35,6 @@ This addon communicates with bluez via the dbus interface, bluez and dbus must b
 	systemctl --user restart pulseaudio
 
 
-2022 wastis
+2023 wastis
 
 
