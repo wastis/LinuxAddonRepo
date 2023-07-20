@@ -39,7 +39,7 @@ v1.0.0
 	</extension>
 </addon>
 
-<addon id="script.pulseequalizer.gui" name="Pulse Equalizer" version="2.2.0" provider-name="wastis">
+<addon id="script.pulseequalizer.gui" name="Pulse Equalizer" version="2.2.1" provider-name="wastis">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
@@ -65,6 +65,8 @@ https://github.com/wastis/PulseEqualizerGui
 		<disclaimer lang="en_GB">Documentation: https://github.com/wastis/PulseEqualizerGui/wiki</disclaimer>
 		<disclaimer lang="de_DE">Dokumentation: https://github.com/wastis/PulseEqualizerGui/wiki</disclaimer>
 		<news>
+v2.2.1  (23-07-6)
+- include "Default" profile to fix a initialization problem
 v2.2.0  (22-10-4)
 - improve default sink handling. 
       Set a default sink for kodi that is used on system startup or
