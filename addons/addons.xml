@@ -135,7 +135,7 @@ v2.1.0 (2021-12-06)
 	</extension>
 </addon>
 
-<addon id="service.mpremote.interface" name="Media Player Remote Interface" version="1.0.6" provider-name="wastis">
+<addon id="service.mpremote.interface" name="Media Player Remote Interface" version="1.0.7" provider-name="wastis">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
@@ -152,6 +152,10 @@ v2.1.0 (2021-12-06)
 		<disclaimer lang="en_GB">https://github.com/wastis/MediaPlayerRemoteInterface</disclaimer>
 		<disclaimer lang="de_DE">https://github.com/wastis/MediaPlayerRemoteInterface</disclaimer>
 		<news>
+
+v1.0.7
+- translate play command from the OS to the play_pause command. 
+This should fix problems on e.g. KDE. 
 
 v1.0.6
 - new icon
