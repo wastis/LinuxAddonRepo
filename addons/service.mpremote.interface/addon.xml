@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="service.mpremote.interface" name="Media Player Remote Interface" version="1.0.7" provider-name="wastis">
+<addon id="service.mpremote.interface" name="Media Player Remote Interface" version="1.0.8" provider-name="wastis">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
@@ -16,6 +16,9 @@
 		<disclaimer lang="en_GB">https://github.com/wastis/MediaPlayerRemoteInterface</disclaimer>
 		<disclaimer lang="de_DE">https://github.com/wastis/MediaPlayerRemoteInterface</disclaimer>
 		<news>
+
+v1.0.8
+- change mpris name to tv.kodi.Kodi for simplified flatpak installation
 
 v1.0.7
 - translate play command from the OS to the play_pause command. 
