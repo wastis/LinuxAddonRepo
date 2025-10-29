@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.shellscript.launcher" name="Shell Script Launcher" version="1.0.1" provider-name="wastis">
+<addon id="script.shellscript.launcher" name="Shell Script Launcher" version="2.0.0" provider-name="wastis">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
@@ -8,15 +8,26 @@
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<platform>linux</platform>
-		<summary lang="en">Execute Shell Scripts</summary>
-		<summary lang="de_DE">Führt Shellprogramme aus</summary>
-		<description lang="en">It displays a script selection menu. The menu is defined in a text file (see README.md).</description>
-		<description lang="de_DE">Zeigt ein Auswahlmenü zum Ausführen von Programmen an. Das Menü ist in einer Textdatei definiert (siehe README.md).</description>
+		<summary lang="en">Run Shell Scripts via a Menu</summary>
+		<summary lang="de_DE">Shell-Skripte über ein Menü ausführen</summary>
+		<description lang="en">
+			Provides an interactive menu for selecting and executing shell scripts. 
+			The menu layout and script definitions are configured via a simple text file (see README.md for details).
+		</description>
+		<description lang="de_DE">
+			Stellt ein interaktives Menü zur Auswahl und Ausführung von Shell-Skripten bereit. 
+			Die Struktur des Menüs und die Skriptdefinitionen werden über eine einfache Textdatei konfiguriert (siehe README.md für Details).
+		</description>		
 		<license>GPL-3.0-or-later</license>
 		<source></source>
 		<disclaimer lang="en_GB"></disclaimer>
 		<disclaimer lang="de_DE"></disclaimer>
 		<news>
+v2.0.0 (2025/4) 
+- support for submenu
+- support for dynamic menus, created by script
+- dropped support inividual keyboard keys due to complexity with sub-menus
+
 v1.0.1 (2022/10/18)
 - support inividual keyboard keys per menu item.
 v1.0.0
@@ -32,7 +43,6 @@ v0.9.0
 		<assets>
 			<icon>resources/media/icon.png</icon>
 			<fanart>resources/media/fanart.jpg</fanart>
-			<screenshot>resources/media/bt-manager-screen.jpg</screenshot>
 		</assets>
 	</extension>
 </addon>

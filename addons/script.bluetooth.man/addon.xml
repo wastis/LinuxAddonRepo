@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.bluetooth.man" name="Bluetooth Manager" version="1.0.4" provider-name="wastis">
+<addon id="script.bluetooth.man" name="Bluetooth Manager" version="1.0.5" provider-name="wastis">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
@@ -18,8 +18,10 @@
 		<disclaimer lang="en_GB">https://github.com/wastis/BluetoothManager</disclaimer>
 		<disclaimer lang="de_DE">https://github.com/wastis/BluetoothManager</disclaimer>
 		<news>
+v1.0.5
+- allows a peer BT device can trigger pairing via a PIN. Add switch to enable autotrust. 
 v1.0.4
-- try to connect with a2db profile first
+- try to connect with a2dp profile first
 v1.0.3
 - remove addon lock when kodi starts and remove device is selected
 v1.0.2
