@@ -1,24 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="script.bluetooth.man" name="Bluetooth Manager" version="1.0.5" provider-name="wastis">
-	<requires>
-		<import addon="xbmc.python" version="3.0.0"/>
-	</requires>
-	<extension point="xbmc.python.script" library="resources/lib/addon.py">
-		<provides>executable</provides>
-	</extension>
-	<extension point="xbmc.service" library="resources/lib/service.py" />
-	<extension point="xbmc.addon.metadata">
-		<platform>linux</platform>
-		<summary lang="en">Bluetooth manager, allows to pair and connect devices.</summary>
-		<summary lang="de_DE">Bluetooth Manager, erlaubt das Koppeln und Verbinden von Geräten.</summary>
-		<description lang="en">A bluetooth manager to pair and connect devices. This implementation is based on dbus interface.</description>
-		<description lang="de_DE">Ein Bluetooth Manager,um Geräte zu koppeln und verbinden. Diese Implementierung basiert auf dem DBus Interface.</description>
-		<license>GPL-3.0-or-later</license>
-		<source>https://github.com/wastis/BluetoothManager</source>
-		<disclaimer lang="en_GB">https://github.com/wastis/BluetoothManager</disclaimer>
-		<disclaimer lang="de_DE">https://github.com/wastis/BluetoothManager</disclaimer>
-		<news>
+<addon id="script.bluetooth.man" name="Bluetooth Manager" version="1.0.6" provider-name="wastis">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.script" library="resources/lib/addon.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.service" library="resources/lib/service.py" />
+    <extension point="xbmc.addon.metadata">
+        <platform>linux</platform>
+        <summary lang="en">Bluetooth manager, allows to pair and connect devices.</summary>
+        <summary lang="de_DE">Bluetooth Manager, erlaubt das Koppeln und Verbinden von Geräten.</summary>
+        <description lang="en">A bluetooth manager to pair and connect devices. This implementation is based on dbus interface.</description>
+        <description lang="de_DE">Ein Bluetooth Manager,um Geräte zu koppeln und verbinden. Diese Implementierung basiert auf dem DBus Interface.</description>
+        <license>GPL-3.0-or-later</license>
+        <source>https://github.com/wastis/BluetoothManager</source>
+        <disclaimer lang="en_GB">https://github.com/wastis/BluetoothManager</disclaimer>
+        <disclaimer lang="de_DE">https://github.com/wastis/BluetoothManager</disclaimer>
+        <news>
+v1.0.6
+- Add support for SSP (Secure Simple Pairing) authentication methods
+- Implement RequestPasskey, DisplayPasskey, DisplayPinCode handlers
+- Implement RequestConfirmation and RequestAuthorization handlers
+- Remove pre-trust call that caused pairing rejection by bluez
+- Auto-confirm and auto-authorize for headless operation
+- Fixes 'pairing rejected by bluez' error with modern smartphones
 v1.0.5
 - allows a peer BT device can trigger pairing via a PIN. Add switch to enable autotrust. 
 v1.0.4
@@ -33,12 +40,12 @@ v1.0.1
 - included into linux addon repository
 v1.0.0 
 - Initial Version</news>
-		<assets>
-			<icon>resources/media/icon.png</icon>
-			<fanart>resources/media/fanart.jpg</fanart>
-			<screenshot>resources/media/bt-manager-screen.jpg</screenshot>
-		</assets>
-	</extension>
+        <assets>
+            <icon>resources/media/icon.png</icon>
+            <fanart>resources/media/fanart.jpg</fanart>
+            <screenshot>resources/media/bt-manager-screen.jpg</screenshot>
+        </assets>
+    </extension>
 </addon>
 
 <addon id="script.pulseequalizer.gui" name="Pulse Equalizer" version="2.2.1" provider-name="wastis">
